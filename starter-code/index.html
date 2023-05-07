@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Tic Tac Toe</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Tic Tac Toe</title>
+  </head>
+  <body>
+    <!-- <div class="welcome">
+      <div class="welcome-header">
+        <h1><img src="./assets/logo.svg" alt="" /></h1>
+      </div>
 
-  <!-- New game menu start -->
+      <div class="welcome-main">
+        <h2 class="welcome-main-title">PICK PLAYER 1'S MARK</h2>
+        <div class="welcome-main-select">
+          <div class="selectionBox">
+            <span class="x selected">X</span>
+          </div>
+          <div class="selectionBox">
+            <span class="o">O</span>
+          </div>
+        </div>
+        <p>REMEMBER : X GOES FIRST</p>
+      </div>
 
-  Pick player 1's mark
-  Remember: X goes first
+      <div class="welcome-footer">
+        <a href="#" class="btn type_primary">NEW GAME (VS CPU)</a>
+        <a href="#" class="btn">NEW GAME (VS PLAYER)</a>
+      </div>
+    </div> -->
 
-  New Game (vs CPU)
-  New Game (vs player)
+    <main class="playground">
+      <div class="playground-header">
+        <div class="part">
+          <img src="./assets/logo.svg" />
+        </div>
+        <div class="part type_middle">
+          <span class="playground-header-turn">X TURN</span>
+        </div>
+        <div class="part">
+          <span class="restart"
+            ><img src="./assets/icon-restart.svg" alt=""
+          /></span>
+        </div>
+      </div>
+      <div class="playground-contents">contents</div>
+      <div class="playground-footer">footer</div>
+    </main>
 
-  <!-- New game menu end -->
-
-  <!-- Game board start -->
-
-  <!-- x/o icon --> turn
-
-  X (You) <!-- Your score -->
-  Ties <!-- Ties score -->
-  X (CPU) <!-- CPU score -->
-
-  Oh no, you lost
-  You won!
-  Player <!-- 1/2 --> wins!
-
-  <!-- x/o icon --> takes the round
-  Round tied
-  Restart game?
-
-  Quit
-  Next round
-  No, cancel
-  Yes, restart
-
-  <!-- Game board end -->
-
-</body>
+    <script
+      src="https://kit.fontawesome.com/c92986acdf.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
 </html>
